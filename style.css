@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Verdana;
+    padding: 15em;
+}
+
+#submitBtn{
+    border-radius: 15px;
+}
+
+#myLabel {
+    border-radius: 15px;
+}
+
+#submitBtn:hover{
+    background-color: rgb(100, 97, 97);
+    color: aliceblue;
+}
