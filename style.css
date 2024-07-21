@@ -1,7 +1,21 @@
-body {
-    text-align: center;
-    font-family: Verdana;
-    padding: 15em;
+
+body{
+    background-color: rgb(131, 131, 138) ;
+}
+
+div{
+   font-family: Verdana;
+   border: solid 3px;
+   padding: 1em;
+   place-items: center;
+   text-align: center;
+   height: 10em;
+   position: absolute;
+   top: 40%;
+   left: 32%;
+   background-color: rgb(195, 193, 193);
+   border-radius: 15px;
+   border-style: hidden;
 }
 
 #submitBtn{
@@ -10,9 +24,17 @@ body {
 
 #myLabel {
     border-radius: 15px;
+    color: black;
 }
 
 #submitBtn:hover{
     background-color: rgb(100, 97, 97);
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+#myH1{
+    color: black;
+}
+
+#myH3{
+    color: red;
 }
